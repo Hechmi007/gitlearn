@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+nav{
+    width: 100%;
+    float: left;
+}
+.menu{
+    margin: 0;
+    padding: 8px;
+    height: 17px;
+    background-color: #334a94;
+}
+.menu li{
+    display: inline;
+}
+.button{
+    font-family: Arial;
+    font-size: 1em;
+    font-style: none;
+    color: #ffffff;
+    padding: 8px;
+    text-decoration: none;
+}
+.button:link{
+    background-color: #5f7cda;
+    color: #ffffff;
+}
+.button:hover{
+    background-color: #afa8f3;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(155, 165, 237);
+    height: auto;
+    width: 100vw;
+    padding-top: 50px;
+    color: #fff;
+}
